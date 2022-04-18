@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito";
+  min-height: 100vh;
+}
+
+img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+#container {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: #fd4d3f;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 30px;
+  max-width: 450px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  color: #141c3a;
+}
+
+p {
+  font-size: 20px;
+  max-width: 400px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.button-container {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+#color-button {
+  width: 100%;
+  padding: 1.75rem 0;
+  border: none;
+  font-size: 24px;
+  background-color: #141c3a;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-family: "Nunito";
+}
+
+#next-button {
+  width: 100%;
+  padding: 1.75rem 0;
+  border: none;
+  font-size: 24px;
+  background-color: #141c3a;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Nunito";
+}
+
+@media (max-width: 550px) {
+  h1 {
+    margin-bottom: 50px;
+  }
+
+  .button-container {
+    max-width: 280px;
+  }
+}
