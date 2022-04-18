@@ -18,7 +18,7 @@ function colorChange(event){
   event.target.style.backgroundColor = randomColor;
   event.target.innerHTML = `Your color is ${randomColor}`;
   const lightColor = colorValue1 + colorValue2 + colorValue3;
-  lightColor < 381 ? event.target.style.color = '#000': event.target.style.color = '#fff';
+  lightColor < 381 ? event.target.style.color = '#fff': event.target.style.color = '#000';
 }
 
 // An event handler property on the button element that fires when it’s clicked. colorChange() is the event handler function.
