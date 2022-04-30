@@ -16,7 +16,7 @@ function colorChange(event){
   let colorValue3 = colorValue();
   let randomColor = 'rgb(' + colorValue1 + ', ' + colorValue2 + ', ' + colorValue3 + ')';
   event.target.style.backgroundColor = randomColor;
-  event.target.innerHTML = `Your color is ${randomColor}`;
+  event.target.textContent = `Your color is ${randomColor}`;
   const lightColor = colorValue1 + colorValue2 + colorValue3;
   lightColor < 381 ? event.target.style.color = '#fff': event.target.style.color = '#000';
 }
