@@ -22,6 +22,7 @@ body {
   font-family: var(--fontFamily);
   height: 100vh;
   background-color: var(--orange);
+  text-align: center;
 }
 
 .random-color-generator {
@@ -38,7 +39,6 @@ body {
 .title {
   font-size: 30px;
   color: var(--darkBlue);
-  text-align: center;
 }
 
 .description {
@@ -48,7 +48,7 @@ body {
 
 .button-container {
   display: grid;
-  max-width: 300px;
+  max-width: 400px;
   width: 95vw;
   gap: 10px;
 }
