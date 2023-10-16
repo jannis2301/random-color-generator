@@ -1,0 +1,19 @@
+{
+  "name": "random_color_generator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitest/coverage-istanbul": "^0.34.6",
+    "happy-dom": "^12.9.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vitest": "^0.34.6"
+  }
+}
